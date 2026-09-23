@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-brand">
-        <strong>LIGHT MY FIRE</strong>
+        <img className="footer-logo" src="/images/lmf-logo.png" alt="Light My Fire" />
         <p>1-on-1 SAT, GMAT & GRE Preparation<br/>Admissions Consulting<br/>Personalized Mentorship</p>
       </div>
       <div><span className="footer-label">Location</span><p>Delhi · Online Worldwide</p></div>

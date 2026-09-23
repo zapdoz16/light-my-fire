@@ -24,6 +24,6 @@ Update `src/data/siteContent.js` with the real:
 - email
 - phone
 
-Replace the portrait placeholder in `AboutSameer.jsx` with the approved Sameer photograph when available, and add the official Light My Fire logo asset.
+The supplied Sameer photograph and official Light My Fire logo are included in `public/images/`.
 
 The homepage copy is intentionally kept in the components/data without AI-generated rewrites.

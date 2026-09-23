@@ -14,8 +14,8 @@ export default function Navbar() {
   return (
     <header className="nav-wrap">
       <nav className="nav">
-        <a href="#" className="brand">
-          <span>LIGHT MY FIRE</span>
+        <a href="#" className="brand" aria-label="Light My Fire home">
+          <img src="/images/lmf-logo.png" alt="Light My Fire" />
         </a>
         <div className="desktop-nav">
           {links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
